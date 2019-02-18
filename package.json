@@ -1,0 +1,23 @@
+{
+  "name": "react-native-logan",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./lib/Logan.js",
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "start:android": "react-native run-android --root example/"
+  },
+  "author": {
+    "name": "Jose",
+    "email": "jose3zhang@163.com"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "7.0.0-bridge.0",
+    "babel-jest": "24.1.0",
+    "jest": "24.1.0",
+    "metro-react-native-babel-preset": "0.51.1",
+    "react": "^16.6.3",
+    "react-native": "^0.58.4"
+  }
+}
